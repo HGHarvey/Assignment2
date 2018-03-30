@@ -1,7 +1,9 @@
+html {
+    box-sizing: border-box;
+}
 body{
     width: 100%;
 }
-
 header{
     width: 100%;
     background-image: url('../images/sky.jpeg');
@@ -11,24 +13,21 @@ header{
     height: 350px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
- h1, h2{
-    color: white;
-    text-align: center;
-    
-}
 h1{
+    color: white;
     position: absolute;
+    text-align: center;
     left: 0;
     top: 10%;
     width: 100%;
-    font-size: 30px;
 }
 h2{
+    color: white;
     position: absolute;
+    text-align: center;
     left: 0;
-    top: 17%;
+    top: 25%;
     width: 100%;
-    font-size: 20px;
 }
 .quote{
     width:50%;
@@ -37,23 +36,20 @@ h2{
     border-style: solid;
     border-width: 1px;
     padding: 30px;
-
-
-    
+}
+.quote p{
+    text-align: right;
 }
 .main-nav{
     position: absolute;
     top: 25px;
     right: 16px;
-    
 }
-
 .main-nav a{
     color: white;
     text-decoration: none;
     list-style-type: none;
     padding: 10px;
-    text-align: justify right;
 }
 h3, h4{
     color: #30396D;
@@ -61,12 +57,9 @@ h3, h4{
 .main-content{
     width: 75%;
     float: left;
-    margin: 0;
     padding:1em;
-    
-      
 }
-.aside-wrapper{
+aside{
     width: 25%;
     margin-left: 80%;
     padding-right: 10px;
@@ -74,17 +67,14 @@ h3, h4{
 .category-links{
     border-bottom: solid 3px #30396D;
     width: 75%;
-    
 }
 .category-links li{
     text-decoration: underline;
-    
 }
 .tags{
     border-bottom: solid 3px #30396D;
     width: 75%;
 }
-
 .tags li{
     display: inline-block;
     border-style: solid;
@@ -92,21 +82,19 @@ h3, h4{
     padding: 3px;
     margin: 3px;
     text-align: center;
-    
 }
 .featured-image img{
     border-style: solid;
     padding: 2px;
     border-color: #30396D;
 }
-
-.footer-wrapper{
+footer{
     clear: both;
     background-color: #30396D;
     color: white;
     width: 100%;
     height: 300px;
-    }
+}
 h5{
     margin: 40px;
     font-size: 15pt;
@@ -115,31 +103,28 @@ h5{
     float: left;
     width: 33%;
 }
-    .news li{   
-     list-style-type: none;
-     text-align: left;
-     padding: 3px;
-     margin: 0px;
+.news li{
+    list-style-type: none;
+    text-align: left;
+    padding: 3px;
+    margin: 0px;
 }
 .events{
     display: inline-block;
     margin: 0 auto;
     width: 33%;
-    }
-    .events li{
-        list-style-type: none;
-        text-align: left;
-        padding: 3px;
-    }
-
-.socials{
-   
-float: right;
-   width: 33%;
-    
 }
-    .socials li{
-        width: 33%;
+.events li{
+    list-style-type: none;
+    text-align: left;
+    padding: 3px;
+}
+.socials{
+    float: right;
+    width: 33%;
+}
+.socials li{
+    width: 33%;
     list-style-type: none;
     text-align: center;
     border-style: solid;
